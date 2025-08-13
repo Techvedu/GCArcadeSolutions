@@ -1,8 +1,14 @@
+pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
 "**                       TECH VEDU                      **"
 "**                                                      **"
 "**********************************************************"
+)
+for line in "${pattern[@]}"
+do
+    echo -e "${YELLOW}${line}${NC}"
+done
 
 gcloud auth list
 
@@ -215,11 +221,17 @@ gcloud compute networks update vpc-demo --bgp-routing-mode GLOBAL
 
 gcloud compute networks describe vpc-demo
 
+pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
 "**                       TECH VEDU                      **"
 "**                                                      **"
 "**********************************************************"
+)
+for line in "${pattern[@]}"
+do
+    echo -e "${YELLOW}${line}${NC}"
+done
 
 
 
