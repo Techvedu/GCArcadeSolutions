@@ -1,4 +1,8 @@
-
+"**********************************************************"
+"**                 S U B S C R I B E  TO                **"
+"**                       TECH VEDU                      **"
+"**                                                      **"
+"**********************************************************"
 
 gcloud auth list
 
@@ -211,9 +215,11 @@ gcloud compute networks update vpc-demo --bgp-routing-mode GLOBAL
 
 gcloud compute networks describe vpc-demo
 
-echo "Thanks for watching, techcps!"
-
-echo "Please like share and subscribe to techcps, https://www.youtube.com/@techcps!"
+"**********************************************************"
+"**                 S U B S C R I B E  TO                **"
+"**                       TECH VEDU                      **"
+"**                                                      **"
+"**********************************************************"
 
 
 
