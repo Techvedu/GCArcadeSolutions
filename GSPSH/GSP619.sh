@@ -1,3 +1,5 @@
+YELLOW='\033[0;33m'
+NC='\033[0m'
 pattern=(
 "**********************************************************"
 "**                 S U B S C R I B E  TO                **"
@@ -63,8 +65,6 @@ gcloud compute firewall-rules create on-prem-allow-ssh-icmp \
     --allow tcp:22,icmp
 
 gcloud compute instances create on-prem-instance1 --zone $ZONE1 --subnet on-prem-subnet1
-
-echo "Please like share and subscribe to techcps, https://www.youtube.com/@techcps!"
 
 gcloud beta compute vpn-gateways create vpc-demo-vpn-gw1 --network vpc-demo --region $REGION1
 
