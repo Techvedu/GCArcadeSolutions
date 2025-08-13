@@ -7,9 +7,7 @@
 
 ```
 curl -LO https://raw.githubusercontent.com/Techvedu/GCArcadeSolutions/refs/heads/main/GSPSH/GSP880.sh
-
-sudo chmod +x GSP880.sh
-
+chmod +x GSP880.sh
 ./GSP880.sh
 ```
 ### Please like , share & subscribe to <img width="25" alt="image" src="https://github.com/user-attachments/assets/dc326965-d4fa-4f1b-87f1-dbad6e3a7259"> [Tech Vedu](https://www.youtube.com/@Techvedu)
