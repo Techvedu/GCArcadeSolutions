@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# "**********************************************************"
-# "**                 S U B S C R I B E  TO                **"
-# "**                      TECH VEDU                       **"
-# "**                                                      **"
-# "**********************************************************"
+echo "**********************************************************"
+echo "**                 S U B S C R I B E  TO                **"
+echo "**                      TECH VEDU                       **"
+echo "**                                                      **"
+echo "**********************************************************"
 
 # Color codes for output
 RED='\033[0;31m'
@@ -311,8 +311,8 @@ echo -e "${YELLOW}3. Check function deployment: gcloud functions list${NC}"
 echo -e "${YELLOW}4. Wait a few minutes for GCSB to refresh progress${NC}"
 
 print_success "All lab tasks completed successfully! 🎉"
-# "**********************************************************"
-# "**                 S U B S C R I B E  TO                **"
-# "**                      TECH VEDU                       **"
-# "**                                                      **"
-# "**********************************************************"
+echo "**********************************************************"
+echo "**                 S U B S C R I B E  TO                **"
+echo "**                      TECH VEDU                       **"
+echo "**                                                      **"
+echo "**********************************************************"
